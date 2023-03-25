@@ -1,0 +1,288 @@
+<!doctype html>
+<html>
+<head>
+    <title>Chess engine</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <table id="board">
+            <tr class="row-8">
+                <td class="col-1">
+                    <div style="position: relative">
+                        <img id="rook_b_l" draggable="true" src="./img/rook_b.png">
+                    </div>
+                </td>
+                <td class="col-2">
+                    <div style="position: relative">
+                        <img id="knight_b_d" draggable="true" src="./img/knight_b.png">
+                    </div>
+                </td>
+                <td class="col-3">
+                    <div style="position: relative">
+                        <img id="bishop_b_l" draggable="true" src="./img/bishop_b.png">
+                    </div>
+                </td>
+                <td class="col-4">
+                    <div style="position: relative">
+                        <img id="queen_b" draggable="true" src="./img/queen_b.png">
+                    </div>
+                </td>
+                <td class="col-5">
+                    <div style="position: relative">
+                        <img id="king_b" draggable="true" src="./img/king_b.png">
+                    </div>
+                </td>
+                <td class="col-6">
+                    <div style="position: relative">
+                        <img id="bishop_b_d" draggable="true" src="./img/bishop_b.png">
+                    </div>
+                </td>
+                <td class="col-7">
+                    <div style="position: relative">
+                        <img id="knight_b_l" draggable="true" src="./img/knight_b.png">
+                    </div>
+                </td>
+                <td class="col-8">
+                    <div style="position: relative">
+                        <img id="rook_b_d" draggable="true" src="./img/rook_b.png">
+                    </div>
+                </td>
+            </tr>
+            <tr class="row-7">
+                <td class="col-1">
+                    <div style="position:relative">
+                        <img id="pawn_b_1" draggable="true" src="./img/pawn_b.png">
+                    </div>
+                </td>
+                <td class="col-2">
+                    <div style="position:relative">
+                        <img id="pawn_b_2" draggable="true" src="./img/pawn_b.png">
+                    </div>
+                </td>
+                <td class="col-3">
+                    <div style="position:relative">
+                        <img id="pawn_b_3" draggable="true" src="./img/pawn_b.png">
+                    </div>
+                </td>
+                <td class="col-4">
+                    <div style="position:relative">
+                        <img id="pawn_b_4" draggable="true" src="./img/pawn_b.png">
+                    </div>
+                </td>
+                <td class="col-5">
+                    <div style="position:relative">
+                        <img id="pawn_b_5" draggable="true" src="./img/pawn_b.png">
+                    </div>
+                </td>
+                <td class="col-6">
+                    <div style="position:relative">
+                        <img id="pawn_b_6" draggable="true" src="./img/pawn_b.png">
+                    </div>
+                </td>
+                <td class="col-7">
+                    <div style="position:relative">
+                        <img id="pawn_b_7" draggable="true" src="./img/pawn_b.png">
+                    </div>
+                </td>
+                <td class="col-8">
+                    <div style="position:relative">
+                        <img id="pawn_b_8" draggable="true" src="./img/pawn_b.png">
+                    </div>
+                </td>
+            </tr>
+            <tr class="row-6">
+                <td class="col-1">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-2">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-3">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-4">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-5">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-6">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-7">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-8">
+                    <div style="position:relative"></div>
+                </td>
+            </tr>
+            <tr class="row-5">
+                <td class="col-1">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-2">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-3">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-4">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-5">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-6">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-7">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-8">
+                    <div style="position:relative"></div>
+                </td>
+            </tr>
+            <tr class="row-4">
+                <td class="col-1">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-2">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-3">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-4">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-5">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-6">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-7">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-8">
+                    <div style="position:relative"></div>
+                </td>
+            </tr>
+            <tr class="row-3">
+                <td class="col-1">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-2">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-3">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-4">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-5">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-6">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-7">
+                    <div style="position:relative"></div>
+                </td>
+                <td class="col-8">
+                    <div style="position:relative"></div>
+                </td>
+            </tr>
+            <tr class="row-2">
+                <td class="col-1">
+                    <div style="position:relative">
+                        <img id="pawn_b_1" draggable="true" src="./img/pawn_w.png">
+                    </div>
+                </td>
+                <td class="col-2">
+                    <div style="position:relative">
+                        <img id="pawn_b_2" draggable="true" src="./img/pawn_w.png">
+                    </div>
+                </td>
+                <td class="col-3">
+                    <div style="position:relative">
+                        <img id="pawn_b_3" draggable="true" src="./img/pawn_w.png">
+                    </div>
+                </td>
+                <td class="col-4">
+                    <div style="position:relative">
+                        <img id="pawn_b_4" draggable="true" src="./img/pawn_w.png">
+                    </div>
+                </td>
+                <td class="col-5">
+                    <div style="position:relative">
+                        <img id="pawn_b_5" draggable="true" src="./img/pawn_w.png">
+                    </div>
+                </td>
+                <td class="col-6">
+                    <div style="position:relative">
+                        <img id="pawn_b_6" draggable="true" src="./img/pawn_w.png">
+                    </div>
+                </td>
+                <td class="col-7">
+                    <div style="position:relative">
+                        <img id="pawn_b_7" draggable="true" src="./img/pawn_w.png">
+                    </div>
+                </td>
+                <td class="col-8">
+                    <div style="position:relative">
+                        <img id="pawn_b_8" draggable="true" src="./img/pawn_w.png">
+                    </div>
+                </td>
+            </tr>
+            <tr class="row-1">
+                <td class="col-1">
+                    <div style="position: relative">
+                        <img draggable="true" src="./img/rook_w.png">
+                    </div>
+                </td>
+                <td draggable="true" class="col-2">
+                    <div style="position: relative">
+                        <img draggable="true" src="./img/knight_w.png">
+                    </div>
+                </td>
+                <td class="col-3">
+                    <div style="position: relative">
+                        <img draggable="true" src="./img/bishop_w.png">
+                    </div>
+                </td>
+                <td class="col-4">
+                    <div style="position: relative">
+                        <img draggable="true" src="./img/queen_w.png">
+                    </div>
+                </td>
+                <td class="col-5">
+                    <div style="position: relative">
+                        <img draggable="true" src="./img/king_w.png">
+                    </div>
+                </td>
+                <td class="col-6">
+                    <div style="position: relative">
+                        <img draggable="true" src="./img/bishop_w.png">
+                    </div>
+                </td>
+                <td class="col-7">
+                    <div style="position: relative">
+                        <img draggable="true" src="./img/knight_w.png">
+                    </div>
+                </td>
+                <td class="col-8">
+                    <div style="position: relative">
+                        <img draggable="true" src="./img/rook_w.png">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+table {
+    position: relative;
+    margin-top: 5em;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 40em;
+    width: 40em;
+}
+
+.container {
+    display: flex;
+    align-items: end;
+}
+
+table img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 4em;
+    width: 4em;
+}
+
+table tr:nth-child(even) {
+    background-color: grey;
+}
+
+table td:nth-child(even) {
+    background-color: grey;
+}
+
+table tr:nth-child(even) td:nth-child(even) {
+    background-color: red;
+}
+
+table tr:nth-child(odd) {
+    background-color: red;
+}

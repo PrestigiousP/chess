@@ -1,5 +1,4 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss":
@@ -8,6 +7,7 @@
   \***********************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -34,6 +34,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "table {\n  position: relative;\n  marg
   \*****************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /*
@@ -128,6 +129,7 @@ module.exports = function (cssWithMappingToString) {
   \************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 module.exports = function (item) {
@@ -147,12 +149,193 @@ module.exports = function (item) {
 
 /***/ }),
 
+/***/ "./src/assets/bishop_b.png":
+/*!*********************************!*\
+  !*** ./src/assets/bishop_b.png ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/bishop_b.png");
+
+/***/ }),
+
+/***/ "./src/assets/bishop_w.png":
+/*!*********************************!*\
+  !*** ./src/assets/bishop_w.png ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/bishop_w.png");
+
+/***/ }),
+
+/***/ "./src/assets/king_b.png":
+/*!*******************************!*\
+  !*** ./src/assets/king_b.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/king_b.png");
+
+/***/ }),
+
+/***/ "./src/assets/king_w.png":
+/*!*******************************!*\
+  !*** ./src/assets/king_w.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/king_w.png");
+
+/***/ }),
+
+/***/ "./src/assets/knight_b.png":
+/*!*********************************!*\
+  !*** ./src/assets/knight_b.png ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/knight_b.png");
+
+/***/ }),
+
+/***/ "./src/assets/knight_w.png":
+/*!*********************************!*\
+  !*** ./src/assets/knight_w.png ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/knight_w.png");
+
+/***/ }),
+
+/***/ "./src/assets/pawn_b.png":
+/*!*******************************!*\
+  !*** ./src/assets/pawn_b.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/pawn_b.png");
+
+/***/ }),
+
+/***/ "./src/assets/pawn_w.png":
+/*!*******************************!*\
+  !*** ./src/assets/pawn_w.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/pawn_w.png");
+
+/***/ }),
+
+/***/ "./src/assets/queen_b.png":
+/*!********************************!*\
+  !*** ./src/assets/queen_b.png ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/queen_b.png");
+
+/***/ }),
+
+/***/ "./src/assets/queen_w.png":
+/*!********************************!*\
+  !*** ./src/assets/queen_w.png ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/queen_w.png");
+
+/***/ }),
+
+/***/ "./src/assets/rook_b.png":
+/*!*******************************!*\
+  !*** ./src/assets/rook_b.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/rook_b.png");
+
+/***/ }),
+
+/***/ "./src/assets/rook_w.png":
+/*!*******************************!*\
+  !*** ./src/assets/rook_w.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/rook_w.png");
+
+/***/ }),
+
 /***/ "./src/styles/main.scss":
 /*!******************************!*\
   !*** ./src/styles/main.scss ***!
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -207,6 +390,7 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
   \****************************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 var stylesInDOM = [];
@@ -300,6 +484,7 @@ module.exports = function (list, options) {
   \********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 var memo = {};
@@ -343,6 +528,7 @@ module.exports = insertBySelector;
   \**********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -362,6 +548,7 @@ module.exports = insertStyleElement;
   \**********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -381,6 +568,7 @@ module.exports = setAttributesWithoutAttributes;
   \***************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -451,6 +639,7 @@ module.exports = domAPI;
   \*********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -468,20 +657,88 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/test.js":
-/*!*********************!*\
-  !*** ./src/test.js ***!
-  \*********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./src/script.js":
+/*!***********************!*\
+  !*** ./src/script.js ***!
+  \***********************/
+/***/ (() => {
 
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-function generateTest() {
-  return "testwork";
-}
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (generateTest);
+window.onload = function () {
+  var cursorX;
+  var cursorY;
+
+  var tablePos = document.querySelector("table").getBoundingClientRect();
+
+  var td = document.querySelectorAll("td");
+
+  td.forEach((cell) => {
+    cell.addEventListener("dragend", function (e) {
+      const squareCoord = getSquareCoordinates();
+      if (squareCoord == null) {
+        return;
+      }
+
+      // copy the image
+      if (this.children[0].children.length > 0) {
+        var img = document.createElement("img");
+        img.src = this.children[0].children[0].getAttribute("src");
+        img.id = this.children[0].children[0].getAttribute("id");
+      }
+
+      // finds the td so we can move the image
+      const row = document.getElementById("board").rows[squareCoord.row];
+      const selectedDiv = row.children.item(squareCoord.col).children[0];
+
+      // check if piece in that square
+      if (selectedDiv.children.length > 0) {
+        const id = selectedDiv.children[0].getAttribute("id");
+        const imElem = document.getElementById(id);
+        imElem.parentNode.removeChild(imElem);
+      }
+
+      // put the image in the square
+      selectedDiv.appendChild(img);
+
+      // delete the position of the previous image
+      e.target.parentNode.removeChild(this.children[0].children[0]);
+
+      // console.log(`${squareCoord.row} ${squareCoord.col}`);
+    });
+  });
+
+  // keep track of mouse position while dragging
+  document.ondragover = function (e) {
+    cursorX = e.clientX;
+    cursorY = e.clientY;
+  };
+
+  // find the square coordinates on there board
+  // that the player dropped the piece on
+  function getSquareCoordinates() {
+    const squareWidth = tablePos.width / 8;
+    const squareHeight = tablePos.height / 8;
+
+    // Get the position of the cursor relative to the board
+    const relativeX = cursorX - tablePos.x;
+    const relativeY = cursorY - tablePos.y;
+
+    const isOutsideBoardLeftOrTop = relativeX < 0 || relativeY < 0;
+    if (isOutsideBoardLeftOrTop) {
+      return null;
+    }
+
+    // Get the col and row where the image should get dropped
+    const row = Math.trunc(relativeY / squareHeight);
+    const col = Math.trunc(relativeX / squareWidth);
+
+    const isOutsideBoardRightOrDown = col > 7 || row > 7;
+    if (isOutsideBoardRightOrDown) {
+      return null;
+    }
+
+    return { row: row, col: col };
+  }
+};
 
 
 /***/ })
@@ -537,6 +794,18 @@ function generateTest() {
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -553,6 +822,26 @@ function generateTest() {
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/nonce */
 /******/ 	(() => {
 /******/ 		__webpack_require__.nc = undefined;
@@ -560,21 +849,45 @@ function generateTest() {
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
+"use strict";
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _test_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test.js */ "./src/test.js");
+/* harmony import */ var _script_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./script.js */ "./src/script.js");
+/* harmony import */ var _script_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_script_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/main.scss */ "./src/styles/main.scss");
+/* harmony import */ var _assets_bishop_b_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/bishop_b.png */ "./src/assets/bishop_b.png");
+/* harmony import */ var _assets_bishop_w_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/bishop_w.png */ "./src/assets/bishop_w.png");
+/* harmony import */ var _assets_knight_b_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/knight_b.png */ "./src/assets/knight_b.png");
+/* harmony import */ var _assets_knight_w_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/knight_w.png */ "./src/assets/knight_w.png");
+/* harmony import */ var _assets_queen_b_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/queen_b.png */ "./src/assets/queen_b.png");
+/* harmony import */ var _assets_queen_w_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/queen_w.png */ "./src/assets/queen_w.png");
+/* harmony import */ var _assets_king_b_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./assets/king_b.png */ "./src/assets/king_b.png");
+/* harmony import */ var _assets_king_w_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/king_w.png */ "./src/assets/king_w.png");
+/* harmony import */ var _assets_pawn_b_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./assets/pawn_b.png */ "./src/assets/pawn_b.png");
+/* harmony import */ var _assets_pawn_w_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./assets/pawn_w.png */ "./src/assets/pawn_w.png");
+/* harmony import */ var _assets_rook_b_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./assets/rook_b.png */ "./src/assets/rook_b.png");
+/* harmony import */ var _assets_rook_w_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./assets/rook_w.png */ "./src/assets/rook_w.png");
 
 
 
-console.log((0,_test_js__WEBPACK_IMPORTED_MODULE_0__["default"])());
+
+
+
+
+
+
+
+
+
+
+
 
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundleea9130f9b53e5078533d.js.map
+//# sourceMappingURL=bundled13201ab3e30225b8686.js.map

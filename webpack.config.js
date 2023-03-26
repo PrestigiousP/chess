@@ -31,7 +31,15 @@ module.exports = {
       },
       {
         test: RegExp(".(png|svg|jpg|jpeg|gif)$"),
-        type: "asset/resource",
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]",
+              outputPath: "img/",
+            },
+          },
+        ],
       },
     ],
   },

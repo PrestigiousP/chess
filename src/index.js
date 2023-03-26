@@ -1,0 +1,14 @@
+import "./script.js";
+import "./styles/main.scss";
+import "./assets/bishop_b.png";
+import "./assets/bishop_w.png";
+import "./assets/knight_b.png";
+import "./assets/knight_w.png";
+import "./assets/queen_b.png";
+import "./assets/queen_w.png";
+import "./assets/king_b.png";
+import "./assets/king_w.png";
+import "./assets/pawn_b.png";
+import "./assets/pawn_w.png";
+import "./assets/rook_b.png";
+import "./assets/rook_w.png";
